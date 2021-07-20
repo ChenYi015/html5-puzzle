@@ -8,7 +8,13 @@ A html5 puzzle game implemented with [lufylegend](https://github.com/lufylegend/
 git clone https://github.com/ChenYi015/html5-puzzle.git
 ```
 
-Open the ` puzzle.html` with your web browser.
+Open ` puzzle.html` with your web browser.
+
+```bash
+docker run -d -p 8000:80 markov015/puzzle:v1.0
+```
+
+Or you can run it within docker, and open [puzzle-game](http://localhost:8000) with your web browser. 
 
 # Screenshots
 
